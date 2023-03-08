@@ -50,7 +50,7 @@ class String {
 function drawString(s, i) {
   context.beginPath();
   context.lineWidth = 5
-  context.strokeStyle = "red";
+  context.strokeStyle = "purple";
   let {x_cnv: x_cnv0, y_cnv: y_cnv0} = strng2cnv_coords(s.x[i-1], s.y_t2[i-1])
   let {x_cnv: x_cnv1, y_cnv: y_cnv1} = strng2cnv_coords(s.x[i], s.y_t2[i])
   context.moveTo(x_cnv0, y_cnv0);
